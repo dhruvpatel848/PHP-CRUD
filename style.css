@@ -1,0 +1,46 @@
+/* Global Styles */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px; /* Increased padding for better spacing */
+}
+
+/* Form Styles */
+form {
+  margin-bottom: 20px; /* Added margin at the bottom of each form for separation */
+}
+
+form input[type="text"],
+form input[type="submit"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="text"] {
+  width: calc(50% - 10px); /* Set input width to 50% minus padding */
+}
+
+form input[type="submit"] {
+  background-color: #af2727;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Results Styles */
+#resultsDelete,
+#resultsUpdate {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#resultsDelete input[type="checkbox"] {
+  margin-right: 5px;
+}
